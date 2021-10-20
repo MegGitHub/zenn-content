@@ -1,5 +1,5 @@
 ---
-title: "AtCoder Beginner Contest 151【Python】"
+title: "AtCoder Beginner Contest 151 解説【Python】"
 emoji: "🐎"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [atcoder]
@@ -32,7 +32,7 @@ print(alpha_list[alpha_list.index(C) + 1])
 入力を受けとった`C`を用いて、リストで隣の文字のインデックスを参照し出力します。
 
 
-### 参考にしたサイト
+## 参考にしたサイト
 
 https://tech-shelf.hatenablog.com/entry/programming/alphabet_list
 
