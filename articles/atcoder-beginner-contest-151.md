@@ -2,7 +2,7 @@
 title: "AtCoder Beginner Contest 151 解説【Python】"
 emoji: "🐎"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: [atcoder]
+topics: [atcoder] [python] [#競技プログラミング] [#競プロ]
 published: true
 ---
 どうもこんにちは、Megです。
@@ -41,4 +41,3 @@ https://note.nkmk.me/python-list-index/
 
 # B問題以降
 誠意記事作成中です。
-
