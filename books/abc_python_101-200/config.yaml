@@ -1,0 +1,7 @@
+title: "AtCoder Beginner Contest 101~200 解説【Python】"
+summary: "AtCoder Beginner Contest 101~200までをPythonで解説した本です。記事が不完全でも公開し、代わりに頻繁に更新していく予定です。"
+topics: ["AtCoder", "Python", "競技プログラミング", "競プロ"]
+published: true
+price: 0 # 有料の場合200〜5000
+# 本に含めるチャプターを順番に並べましょう
+chapters:
