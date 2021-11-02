@@ -30,3 +30,10 @@ title: "ABC"
 
 # B問題以降
 誠意記事作成中です…！
+
+
+
+# GitHub
+今回のコンテストに加えてAtCoderに関するコードをGitHubで管理しています。
+気になる方は以下のURLから参照してみてください。
+https://github.com/MegGitHub/AtCoder.git
