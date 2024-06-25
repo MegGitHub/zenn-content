@@ -3,7 +3,7 @@ title: "Gitリポジトリ内にGitリポジトリを配置しようとしたら
 emoji: "🌳"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["git", "error", "repository", "troubleshooting"]
-published: false
+published: True
 ---
 
 # はじめに
