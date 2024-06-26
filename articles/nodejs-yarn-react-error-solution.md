@@ -15,7 +15,7 @@ published: True
 Reactアプリを開発するために、Node.jsとyarnを使用して環境構築を行っていましたが、`yarn start`実行時に以下のエラーが発生しました。このブログでは、エラーの解決方法をステップバイステップで紹介します。
 それじゃいってみよう！
 
-# エラー内容
+## エラー内容
 トグル内に詳細なエラーを記載します。
 :::details エラーメッセージ
 /Users/user/GitHub/book-react-code/4/react-basic/node_modules/react-scripts/scripts/start.js:19
@@ -48,13 +48,13 @@ info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this comm
 :::
 
 
-# エラーの原因
+## エラーの原因
 
 このエラーは、Node.jsのバージョン20.14.0と一部の古いパッケージ（特にwebpack）が互換性の問題を抱えているために発生しているそう。この問題は、OpenSSLの変更が原因ぽい。
 
-# 解決方法
+## 解決方法
 
-## 環境変数を設定する
+### 環境変数を設定する
 
 Node.js v17以上を使用している場合、環境変数を設定することで一時的にこの問題を回避できます。
 
@@ -67,7 +67,7 @@ Node.js v17以上を使用している場合、環境変数を設定すること
 
 これで、`yarn start`を再度実行すると、エラーが発生せずに開発サーバーが起動しました。
 
-# まとめ
+## まとめ
 
 今回は、Node.jsのバージョン20.14.0で発生した`ERR_OSSL_EVP_UNSUPPORTED`エラーを解決する方法を紹介しました。私の場合、環境変数を設定する方法で問題を解決しました。
 他にも、
