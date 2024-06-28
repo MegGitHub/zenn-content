@@ -1,27 +1,31 @@
 ---
-title: "pyenvでラクラク環境構築！LinuxとMac OSユーザーのためのPython導入ガイド"
+title: "pyenvでラクラク環境構築！LinuxユーザーのためのPython導入ガイド"
 emoji: "🐍"
 type: "tech"
 topics: ["Python", "pyenv", "環境構築", "Linux", "MacOS"]
-published: false
+published: true
 ---
 
 :::message
+本記事の執筆者：Claude 3.5 Sonnetさん
+本記事の編集者：Meg
 
+素のMegの記事が読みたい方はこちら！→[Meg Log](https://biotech-univ.com/)
 :::
 
-Python環境の構築で頭を悩ませていませんか？今回は、pyenvを使って簡単にPython環境を整える方法をご紹介します。何番煎じだって感じだけど、環境構築する時毎回作り方忘れちゃうからしょうがない！
+Python環境の構築で頭を悩ませていませんか？今回は、pyenvを使って簡単にPython環境を整える方法をご紹介します。
+何番煎じだって感じだけど、環境構築する時毎回作り方忘れちゃうからしょうがない！
 
 ## この記事で学べること
 
-- pyenvのインストール方法（思ったより簡単ですよ）
+- pyenvのインストール方法
 - pyenvでPythonをインストールする方法
-- 仮想環境の作り方（プロジェクトをキレイに保つコツ）
-- requirements.txtの使い方（依存関係管理の強い味方）
+- 仮想環境の作り方
+- requirements.txtの使い方
 
 ## 前提条件
 
-- LinuxまたはMac OSを使っていること
+- Linuxを使っていること
 - ターミナルの基本操作ができること
 
 それでは、さっそく始めましょう！
@@ -32,7 +36,7 @@ Python環境の構築で頭を悩ませていませんか？今回は、pyenvを
 
 ### 依存関係のインストール
 
-pyenvを使うには、いくつかのパッケージが必要です。OSに応じて以下のコマンドを実行してください。
+pyenvを使うには、いくつかのパッケージが必要です。
 
 Linuxの場合（Ubuntu系）:
 
@@ -41,12 +45,6 @@ sudo apt update
 sudo apt install -y make build-essential libssl-dev zlib1g-dev libbz2-dev \
 libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev \
 xz-utils tk-dev libffi-dev liblzma-dev python-openssl git
-```
-
-Mac OSの場合:
-
-```bash
-brew install openssl readline sqlite3 xz zlib
 ```
 
 ### pyenvのインストール
@@ -67,13 +65,13 @@ echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.
 echo 'eval "$(pyenv init -)"' >> ~/.bashrc  # または ~/.zshrc
 ```
 
-設定を反映させるために、新しいターミナルを開くか、次のコマンドを実行してください：
+設定を反映させるために、新しくターミナルを開くか、次のコマンドを実行してください：
 
 ```bash
 source ~/.bashrc  # または ~/.zshrc
 ```
 
-これで準備完了です。簡単でしたね。
+これで準備完了です。
 
 ## Pythonをインストールしてみよう
 
@@ -101,7 +99,7 @@ python -m venv myproject_env
 source myproject_env/bin/activate
 ```
 
-これで、プロジェクト専用の環境が作れました。仮想環境　is ただのディレクトリ。
+これで、プロジェクト専用の環境が作れました。.venv is ただのディレクトリ。
 
 ## requirements.txtを使いこなそう
 
@@ -119,7 +117,7 @@ pip freeze > requirements.txt
 pip install -r requirements.txt
 ```
 
-これで環境の共有も楽チンですね。
+これで環境の共有も楽チン。
 
 ## まとめ
 
@@ -129,4 +127,5 @@ pip install -r requirements.txt
 この記事で紹介した方法を使えば、効率的にPython環境を構築できるはずです。
 ぜひ試してみてください。
 
-俺はxxx & xxxの高みで待っている。
+俺はasdf + poetryの高みで待ってます。
+https://x.com/meg_mur2/status/1792511185813991520?s=61
