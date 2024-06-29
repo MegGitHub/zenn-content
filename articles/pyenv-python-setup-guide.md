@@ -11,6 +11,8 @@ published: true
 本記事の編集者：Meg
 
 素のMegの記事が読みたい方はこちら！→[Meg Log](https://biotech-univ.com/)
+
+間違いなどありましたら、コメントで教えて頂けると嬉しいです！
 :::
 
 Python環境の構築で頭を悩ませていませんか？今回は、pyenvを使って簡単にPython環境を整える方法をご紹介します。
@@ -127,5 +129,5 @@ pip install -r requirements.txt
 この記事で紹介した方法を使えば、効率的にPython環境を構築できるはずです。
 ぜひ試してみてください。
 
-俺はasdf + poetryの高みで待ってます。
+自分はasdf + poetryの高みで待ってます。
 https://x.com/meg_mur2/status/1792511185813991520?s=61
