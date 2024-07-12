@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Mac OS Node.js インストール"
 emoji: "🎉"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: []
