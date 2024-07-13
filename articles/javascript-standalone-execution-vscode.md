@@ -10,15 +10,15 @@ published: false
 本記事の執筆者：Claude 3.5 Sonnetさん
 本記事の編集者：Meg
 
-素のMegの記事が読みたい方はこちら！→[Meg Log](https://biotech-univ.com/)
-
 間違いなどありましたら、コメントで教えて頂けると嬉しいです！
 :::
 
 こんにちは、Megです！
-今回は、JavaScriptファイルを単体で動かす方法についてご紹介します。個人でJavaScriptの勉強をされている方や、手軽にjsファイルの動作確認をしたい方にとって、とても便利な方法ですよ。
+今回は、JavaScriptファイルを単体で動かす方法についてご紹介します。
+個人でJavaScriptの勉強をされている方や、手軽にjsファイルの動作確認をしたい方にとって、とても便利な方法です。
 
-ちなみに、JavaScriptベースのReactはフロントエンドエンジニアには必須のスキルで、案件も豊富です。この機会にJavaScriptの理解を深めてみてはいかがでしょうか。
+ちなみに、JavaScript・TypeScriptベースのReactはフロントエンドエンジニアには必須のスキルで、案件も豊富です。
+この機会にJavaScript・TypeScriptへの理解を深めてみてはいかがでしょうか？
 
 ## この記事で学べること
 
@@ -45,7 +45,8 @@ node -v
 
 次に、エディタである Visual Studio Code（通称VS Code）をインストールします。
 
-インストール方法は[こちらの記事](https://biotech-univ.com/2021visual-studio-codemac/)が参考になりますよ。MacユーザーもWindowsユーザーも、こちらを参考にしてください。
+インストール方法は[こちらの記事](https://biotech-univ.com/2021visual-studio-codemac/)が参考になりますよ。
+MacユーザーもWindowsユーザーも、こちらを参考にしてください。
 
 ## Step 3: Code Runnerのインストール
 
@@ -55,15 +56,15 @@ VS Codeの左側にある拡張機能欄から検索してインストールす�
 
 ## Code Runnerの設定
 
-Code Runnerのインストールが完了したら、少し設定をして使いやすい環境を整えましょう。
+Code Runnerのインストールが完了したら、少し設定を変更して使いやすい環境を整えましょう。
 
 ### 出力設定：console.logの結果をVS Code上で確認
 
 console.logなどの結果をVS Code上で表示するために、ターミナルに出力されるように設定します。
 
 1. VS Codeの設定を開きます（Windowsは `Ctrl+,`、Macは `Cmd+,`）
-2. 検索バーに「code-runner.runInTerminal」と入力します
-3. チェックボックスにチェックを入れます
+2. 検索バーに「code-runner.runInTerminal」と入力
+3. チェックボックスにチェック
 
 これで、実行結果がVS Codeのターミナルに表示されるようになります。
 
