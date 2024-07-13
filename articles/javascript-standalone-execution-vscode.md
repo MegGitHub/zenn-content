@@ -45,8 +45,7 @@ node -v
 
 次に、エディタである Visual Studio Code（通称VS Code）をインストールします。
 
-インストール方法は[こちらの記事](https://biotech-univ.com/2021visual-studio-codemac/)が参考になりますよ。
-MacユーザーもWindowsユーザーも、こちらを参考にしてください。
+インストール方法は[こちらの記事](https://biotech-univ.com/2021visual-studio-codemac/)が参考になります。
 
 ## Step 3: Code Runnerのインストール
 
@@ -62,7 +61,7 @@ Code Runnerのインストールが完了したら、少し設定を変更して
 
 console.logなどの結果をVS Code上で表示するために、ターミナルに出力されるように設定します。
 
-1. VS Codeの設定を開きます（Windowsは `Ctrl+,`、Macは `Cmd+,`）
+1. VS Codeの設定を開く（Windowsは `Ctrl+,`、Macは `Cmd+,`）
 2. 検索バーに「code-runner.runInTerminal」と入力
 3. チェックボックスにチェック
 
@@ -72,9 +71,9 @@ console.logなどの結果をVS Code上で表示するために、ターミナ�
 
 次に、Code RunnerでJavaScriptを実行できるように言語を設定しましょう。
 
-1. VS Codeの設定を開きます
-2. 検索バーに「code-runner.executorMap」と入力します
-3. 「settings.jsonで編集」をクリックします
+1. VS Codeの設定を開く
+2. 検索バーに「code-runner.executorMap」と入力
+3. 「settings.jsonで編集」をクリック
 4. 以下のコードを追加してください：
 
 ```json
@@ -101,9 +100,10 @@ A.2 少し時間を置いてから再度確認してみてください。
 
 ## まとめ
 
-JavaScriptファイルを単体で動かす環境が整いました。これで、HTMLやJSXファイルを作成することなく、手軽にJavaScriptの動作確認ができますね。
+JavaScriptファイルを単体で動かす環境が整いました。これで、HTMLやJSXファイルを作成することなく、手軽にJavaScriptの動作確認ができます。
 
-JavaScriptを基にしたモダンな開発言語であるReactは、現在フロントエンド開発の主流となっており、案件も豊富です。私自身も現在、ブログ構築にReactを使用しようと考えており、以下の書籍で学習中です。
+JavaScriptを基にしたモダンな開発言語であるReactは、現在フロントエンド開発の主流となっており、案件も豊富です。
+私自身も現在、ブログ構築にReactを使用しようと考えており、以下の書籍で学習中です。
 
 :::message
 **おすすめの書籍**
@@ -118,4 +118,5 @@ JavaScriptを基にしたモダンな開発言語であるReactは、現在フ�
 2. [Visual Studio Code 上で JavaScript を実行する](https://hinablo.hinasur.com/2020/05/16/visual-studio-code-%e4%b8%8a%e3%81%a7-javascript-%e3%82%92%e5%ae%9f%e8%a1%8c%e3%81%99%e3%82%8b/)
 3. [VSCodeでJavaScriptを実行する方法](https://note.com/kushikushi_study/n/n55646d514748)
 
-以上で、JavaScriptファイルを単体で動かす方法の解説を終わります。この記事が皆さんのJavaScript学習の助けになれば幸いです。何か質問があれば、コメント欄でお待ちしております！
+以上で、JavaScriptファイルを単体で動かす方法の解説を終わります。この記事が皆さんのJavaScript学習の助けになれば幸いです。
+何か質問があれば、コメント欄でお待ちしております！
