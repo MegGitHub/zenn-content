@@ -3,7 +3,7 @@ title: "JavaScriptファイルを単体で簡単に動かす方法！"
 emoji: "🚀"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["javascript", "vscode", "nodejs"]
-published: false
+published: true
 ---
 
 :::message
@@ -27,7 +27,7 @@ published: false
 
 ## 結論
 
-Node.js + VS Code + 拡張機能「Code Runner」の組み合わせで、簡単に環境構築ができます！
+**Node.js + VS Code + 拡張機能「Code Runner」**の組み合わせで、簡単に環境構築ができます！
 
 ## Step 1: Node.jsのインストール
 
@@ -105,18 +105,15 @@ JavaScriptファイルを単体で動かす環境が整いました。これで�
 JavaScriptを基にしたモダンな開発言語であるReactは、現在フロントエンド開発の主流となっており、案件も豊富です。
 私自身も現在、ブログ構築にReactを使用しようと考えており、以下の書籍で学習中です。
 
-:::message
 **おすすめの書籍**
-（ここにReact関連の書籍のアフィリエイトリンクを挿入してください）
-:::
 
-皆さんも、この機会にJavaScriptやReactの学習を始めてみてはいかがでしょうか？
+[モダンJavaScriptの基本から始める React実践の教科書 (最新ReactHooks対応) (Informatics&IDEA)](https://amzn.asia/d/07C7UKQ7)
+
+以上で、JavaScriptファイルを単体で動かす方法の解説を終わります。この記事が皆さんのJavaScript学習の助けになれば幸いです。
+何か質問があれば、コメント欄でお待ちしております！
 
 ## 参考文献
 
 1. [VS CodeでJavaScriptを実行する方法](https://zenn.dev/kainari/articles/vscode-code-runner)
 2. [Visual Studio Code 上で JavaScript を実行する](https://hinablo.hinasur.com/2020/05/16/visual-studio-code-%e4%b8%8a%e3%81%a7-javascript-%e3%82%92%e5%ae%9f%e8%a1%8c%e3%81%99%e3%82%8b/)
 3. [VSCodeでJavaScriptを実行する方法](https://note.com/kushikushi_study/n/n55646d514748)
-
-以上で、JavaScriptファイルを単体で動かす方法の解説を終わります。この記事が皆さんのJavaScript学習の助けになれば幸いです。
-何か質問があれば、コメント欄でお待ちしております！
