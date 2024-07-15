@@ -5,6 +5,14 @@ type: "tech" # tech: 技術記事 / idea: アイデア
 topics: []
 published: false
 ---
+
+:::message
+本記事の執筆者：Claude 3.5 Sonnetさん
+本記事の編集者：Meg
+
+間違いなどありましたら、コメントで教えて頂けると嬉しいです！ :::
+:::
+
 - Download Node.js(LTS)
     - v20.14.0
     - 最新はv22.2.0
