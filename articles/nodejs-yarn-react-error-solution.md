@@ -9,7 +9,6 @@ published: True
 本記事の執筆者：ChatGPTさん
 本記事の編集者：Meg
 
-素のMegの記事が読みたい方はこちら！→[Meg Log](https://biotech-univ.com/)
 間違いなどありましたら、コメントで教えて頂けると嬉しいです！
 :::
 
